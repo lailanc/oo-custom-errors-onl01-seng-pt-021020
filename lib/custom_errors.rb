@@ -8,7 +8,6 @@ class Person
   end
 
   def get_married(person)
-    binding pry.
     self.partner = person
     person.partner = self
   end
